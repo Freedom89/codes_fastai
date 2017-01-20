@@ -30,4 +30,3 @@ rm vgg16.zip
 
 [Kaggle cli](http://wiki.fast.ai/index.php/Kaggle_CLI)
 
-testing
