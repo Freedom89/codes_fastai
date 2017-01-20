@@ -4,7 +4,7 @@
 
 * [Course page](http://wiki.fast.ai/index.php/Lesson_1#Overview_of_homework_assignment)
 * [Course notes](http://wiki.fast.ai/index.php/Lesson_1_Notes)
-* [Notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson1.ipynb)
+* [Notebook for lesson 1](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson1.ipynb)
 * [Lesson 1 Overview](https://www.youtube.com/watch?v=kzt3-FHdAeM)
 * [Lesson 1: Practical Deep Learning for Coders
 ](https://www.youtube.com/watch?v=Th_ckFbc6bI)
@@ -25,3 +25,7 @@ rm dogscats.zip
 rm utils.zip
 rm vgg16.zip
 ```
+
+### Misc
+
+[Kaggle cli](http://wiki.fast.ai/index.php/Kaggle_CLI)
