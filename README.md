@@ -31,6 +31,7 @@ rm vgg16.zip
 * [Course page](http://wiki.fast.ai/index.php/Lesson_2)
 * [Discussion page](http://forums.fast.ai/t/lesson-2-discussion/161/91)
 * [Lesson 2: Practical Deep Learning for Coders](https://www.youtube.com/watch?v=e3aM6XTekJc&feature=youtu.be)
+* [Lesson 0 - recommended to watch after lesson 2](https://www.youtube.com/watch?v=ACU-T9L4_lI&t=11s)
 * [Notebooks](https://github.com/fastai/courses)
 	* [convolution-intro.ipynb](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/convolution-intro.ipynb) - The convolution tutorial notebook used in the 		introductory lesson presented during the Data Institute launch
 	* [lesson2.ipynb](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson2.ipynb) - the main notebook for lesson 2
