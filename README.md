@@ -48,6 +48,31 @@ rm vgg16.zip
   * [Chapter 2 - How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html)
   * [Chapter 3 - Improving the way neural networks learn](http://neuralnetworksanddeeplearning.com/chap3.html)
 
+### Week2 Extras 
+
+Suggested Readings from notebooks
+* [Chapter 4 - A visual proof that neural nets can compute any function](http://neuralnetworksanddeeplearning.com/chap4.html)
+
+Errors
+
+```
+val_data = get_data(val_batches)
+trn_data = get_data(batches)
+```
+should be 
+
+```
+val_data = get_data(path + 'valid')
+trn_data = get_data(path + 'train')
+```
+
+More over, using get_data would cause your memory to be inefficient (on p2.x on aws), it is suggested on the [fourms](http://forums.fast.ai/search?q=memory) to use batch generator instead.
+
+I overcame the problem by running the code as it is, save using bcolz. Afterwards i restart the notebook, and only ran the load command without get_data. 
+
+As an aside, you can use `sys.getsizeof()` to understand the memory usage of each python object.
+
+This [link](                        http://askubuntu.com/questions/53264/how-do-you-find-out-which-program-is-using-too-much-memory) is also a good read to understand how to monitor your instance memory stance. 
 
 ### Misc
 
