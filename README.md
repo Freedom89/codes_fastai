@@ -50,11 +50,12 @@ rm vgg16.zip
 
 ### Week2 Extras 
 
-Suggested Readings from notebooks
+#### Suggested Readings from notebooks
 * [Chapter 4 - A visual proof that neural nets can compute any function](http://neuralnetworksanddeeplearning.com/chap4.html)
 
-Errors
+#### Errors
 
+##### Error one
 ```
 val_data = get_data(val_batches)
 trn_data = get_data(batches)
@@ -73,6 +74,19 @@ I overcame the problem by running the code as it is, save using bcolz. Afterward
 As an aside, you can use `sys.getsizeof()` to understand the memory usage of each python object.
 
 This [link](                        http://askubuntu.com/questions/53264/how-do-you-find-out-which-program-is-using-too-much-memory) is also a good read to understand how to monitor your instance memory stance. 
+
+##### Error two
+
+```
+def fit_model(model, batches, val_batches, nb_epoch=1):
+    model.fit_generator(batches, samples_per_epoch=batches.N, nb_epoch=nb_epoch, 
+                        validation_data=val_batches, nb_val_samples=val_batches.N)
+
+model.evaluate_generator(get_batches('valid', gen, False, batch_size*2), val_batches.N)
+
+```
+
+The `batches.N` and `val_batches.N` should be `batches.n` and `val_batches.n` instead based on the util functions. 
 
 ### Misc
 
