@@ -93,10 +93,14 @@ The `batches.N` and `val_batches.N` should be `batches.n` and `val_batches.n` in
 * [Course page](http://wiki.fast.ai/index.php/Lesson_3)
   * Note that there are also articles on Matrix Product, Convolutions (and max pooling), Activations, SGD, Backprop. 
 * [Lesson 3 notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson3.ipynb)
+* [convolution-intro.ipynb](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/convolution-intro.ipynb) - The convolution tutorial notebook used in the introductory lesson presented during the Data Institute launch. This is covered in week2 as well. 
 * [Mnist walkthrough notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/mnist.ipynb)
 * Suggested Extra Readings 
   * [Stanford CNN](http://cs231n.github.io/convolutional-networks/)
   * [Chapter 6 of Michael Nielsen's Book](http://neuralnetworksanddeeplearning.com/chap6.html) 
+* To do:
+   * Understand Batch-normalization
+   * Understand difference between Correlation and Convolution. 
 
  
 
