@@ -88,6 +88,18 @@ model.evaluate_generator(get_batches('valid', gen, False, batch_size*2), val_bat
 
 The `batches.N` and `val_batches.N` should be `batches.n` and `val_batches.n` instead based on the util functions. 
 
+## Week 3
+
+* [Course page](http://wiki.fast.ai/index.php/Lesson_3)
+  * Note that there are also articles on Matrix Product, Convolutions (and max pooling), Activations, SGD, Backprop. 
+* [Lesson 3 notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson3.ipynb)
+* [Mnist walkthrough notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/mnist.ipynb)
+* Suggested Extra Readings 
+  * [Stanford CNN](http://cs231n.github.io/convolutional-networks/)
+  * [Chapter 6 of Michael Nielsen's Book](http://neuralnetworksanddeeplearning.com/chap6.html) 
+
+ 
+
 ### Misc
 
 [Kaggle cli](http://wiki.fast.ai/index.php/Kaggle_CLI)
