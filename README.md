@@ -26,6 +26,12 @@ rm utils.zip
 rm vgg16.zip
 ```
 
+#### Errors for week1
+
+Do not use the wget for `utils.zip` and `vgg16.zip`.
+
+Instead, please download from github repo and also include `vgg16bn.py`.
+
 ## Week2 
 
 * [Course page](http://wiki.fast.ai/index.php/Lesson_2)
@@ -102,6 +108,27 @@ The `batches.N` and `val_batches.N` should be `batches.n` and `val_batches.n` in
    * Understand Batch-normalization
    * Understand difference between Correlation and Convolution. 
 
+ 
+#### Errors 
+ 
+ * `width_zoom_range` does not exists in `image.ImageDataGenerator`
+ 
+	 ```
+  gen = image.ImageDataGenerator(rotation_range=10,
+  width_shift_range=0.1,height_shift_range=0.1,
+   width_zoom_range=0.2, shear_range=0.15, zoom_range=0.1, 
+   channel_shift_range=10., horizontal_flip=True, dim_ordering='tf')
+ ``` 
+ 
+* `Weights` in `('/data/jhoward/ILSVRC2012_img/bn_do3_1.h5')` is not provided. 
+* Tried using `fc_model` weights, but the val_loss explodes upwards.
+* Tried using `vggbn16` weights, similar case.
+
+Further notes for reference:
+
+* [adjusting learning rates - most promising, but have to wait for week4 lessons](http://forums.fast.ai/t/statefarm-kaggle-comp/183/44)
+* [Enquiry about bn_do3_1.h5](http://forums.fast.ai/t/statefarm-kaggle-comp/183/36)
+* [Proposed solution - but does not work for me ](http://forums.fast.ai/t/lesson-3-discussion/186/79)
  
 
 ### Misc
