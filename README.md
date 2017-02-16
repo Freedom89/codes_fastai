@@ -98,6 +98,7 @@ The `batches.N` and `val_batches.N` should be `batches.n` and `val_batches.n` in
 
 * [Course page](http://wiki.fast.ai/index.php/Lesson_3)
   * Note that there are also articles on Matrix Product, Convolutions (and max pooling), Activations, SGD, Backprop. 
+* [Lesson 3 video](https://www.youtube.com/watch?v=6kwQEBMandw)
 * [Lesson 3 notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson3.ipynb)
 * [convolution-intro.ipynb](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/convolution-intro.ipynb) - The convolution tutorial notebook used in the introductory lesson presented during the Data Institute launch. This is covered in week2 as well. 
 * [Mnist walkthrough notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/mnist.ipynb)
@@ -130,6 +131,21 @@ Further notes for reference:
 * [Enquiry about bn_do3_1.h5](http://forums.fast.ai/t/statefarm-kaggle-comp/183/36)
 * [Proposed solution - but does not work for me ](http://forums.fast.ai/t/lesson-3-discussion/186/79)
  
+ 
+## Week4
+
+* [Course page](http://wiki.fast.ai/index.php/Lesson_4)
+* [Lesson 4: COLLABORATIVE FILTERING, EMBEDDINGS, AND MORE](https://www.youtube.com/watch?v=V2h3IOBDvrA)
+* [Lesson 4 notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson4.ipynb)
+
+
+#### Download data
+```
+wget http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+unzip ml-latest-small.zip
+mv ml-latest-small.zip/ ml-small/
+```
+
 
 ### Misc
 
