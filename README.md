@@ -143,9 +143,16 @@ Further notes for reference:
 ```
 wget http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 unzip ml-latest-small.zip
-mv ml-latest-small.zip/ ml-small/
+mv ml-latest-small.zip/ ml-small/ 
 ```
 
+## Week5
+
+* [Course page](http://wiki.fast.ai/index.php/Lesson_5)
+* [Lesson 5 - INTRO TO NLP AND RNNS
+](https://www.youtube.com/watch?time_continue=104&v=qvRL74L81lg)
+* [Lesson 5 notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson5.ipynb)
+* [Lesson 5 sub notebook - glove](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/wordvectors.ipynb)
 
 ### Misc
 
