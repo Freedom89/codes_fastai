@@ -164,6 +164,32 @@ tar -zxf 6B.50d.tgz
 
 ```
 
+#### Errors
+
+1. If you have the error `'The following error happened while compiling the node'`
+
+	refer to [here](https://groups.google.com/forum/#!topic/keras-users/6yKoQNQwAXI)
+
+	basically, go to your keras packages, and edit theano_backend.py
+	
+	```
+	def round(x):
+	    return T.round(x, mode='half_to_even')
+```
+
+	to
+
+	```
+	def round(x):
+	    return T.round(x, mode='half_away_from_zero')
+    
+	```
+	
+2. The seed is very important in the training of neural nets, you might not get the same results as the author. 
+	* Additional notes [here](http://forums.fast.ai/t/lesson-5-discussion/233/24).
+	
+	
+
 
 ### Misc
 
