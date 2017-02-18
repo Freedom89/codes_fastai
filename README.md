@@ -154,6 +154,17 @@ mv ml-latest-small.zip/ ml-small/
 * [Lesson 5 notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson5.ipynb)
 * [Lesson 5 sub notebook - glove](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/wordvectors.ipynb)
 
+#### Download data / model
+
+other models are available [here](http://www.platform.ai/models/glove/).
+
+```
+wget http://www.platform.ai/models/glove/6B.50d.tgz
+tar -zxf 6B.50d.tgz
+
+```
+
+
 ### Misc
 
 [Kaggle cli](http://wiki.fast.ai/index.php/Kaggle_CLI)
