@@ -189,6 +189,11 @@ tar -zxf 6B.50d.tgz
 	* Additional notes [here](http://forums.fast.ai/t/lesson-5-discussion/233/24).
 	
 	
+## Week 6
+
+* [Course page](http://wiki.fast.ai/index.php/Lesson_6)
+* [Lesson 6 - BUILDING RNN](https://www.youtube.com/watch?v=ll9y1U0SoVY)
+* [Lesson 6 - Notebook](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson6.ipynb)
 
 
 ### Misc
