@@ -114,7 +114,7 @@ The `batches.N` and `val_batches.N` should be `batches.n` and `val_batches.n` in
  
  * `width_zoom_range` does not exists in `image.ImageDataGenerator`
  
-	 ```
+ ```
   gen = image.ImageDataGenerator(rotation_range=10,
   width_shift_range=0.1,height_shift_range=0.1,
    width_zoom_range=0.2, shear_range=0.15, zoom_range=0.1, 
